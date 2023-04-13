@@ -1,5 +1,6 @@
 # maskcode
 Hide data inside images
+<br>
 
 ## Installation
 
@@ -24,6 +25,7 @@ Hide data inside images
   ```py
   data.embedd("Hello world!")
   ```
+<br>
 
 ### Extract Data
   > Note that it will return binary object
@@ -38,6 +40,7 @@ Hide data inside images
   ```
   b'Hello world!'
   ```
+<br>
 
 ### Reset embedded data
 
