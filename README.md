@@ -9,7 +9,6 @@ Hide data inside images
 <br>
 
 ## Usage
-<br>
 
 ### Embedd data
    ```py
@@ -20,6 +19,7 @@ Hide data inside images
 
    data.embedd("Hello world!")
    ```
+&nbsp;  
 
 ### Extract Data
 > Note that it will return binary object
@@ -33,11 +33,7 @@ Hide data inside images
    print(extracted_data)
 
    ```
-
-   **Output:**
-   ```
-      b'Hello world!'
-   ```
+&nbsp;  
 
 ### Reset embedded data
    ```py
@@ -49,9 +45,5 @@ Hide data inside images
    data.reset()
    print(data.extract())
    ```
-
-   **Output:**
-   ```
-      b''
-   ```
+&nbsp;  
 
