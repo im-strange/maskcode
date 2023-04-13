@@ -47,3 +47,6 @@ Hide data inside images
    ```
 &nbsp;  
 
+**License**
+> This repo is licensed with MIT.
+&nbsp;  
