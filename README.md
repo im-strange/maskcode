@@ -2,15 +2,13 @@
 Hide data inside images
 <br>
 
-## Installation
-
+## Installation  
    ```
    pip install git+https://github.com/im-strange/maskcode.git
    ```
 <br>
 
 ## Usage
-
    ```py
    from maskcode import MaskCode
   
@@ -20,8 +18,7 @@ Hide data inside images
    ```
 <br>
 
-### Embedd data
-
+**Embedd data**
   ```py
   data.embedd("Hello world!")
   ```
@@ -29,7 +26,6 @@ Hide data inside images
 
 ### Extract Data
    > Note that it will return binary object
-
    ```py
    extracted_data = data.extract()
    print(extracted_data)
@@ -37,21 +33,18 @@ Hide data inside images
    ```
 
    **Output:**
-
    ```
    b'Hello world!'
    ```
 <br>
 
 ### Reset embedded data
-
    ```py
    data.reset()
    print(data.extract())
    ```
 
    **Output:**
-
    ```
    b''
    ```
