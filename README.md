@@ -9,24 +9,26 @@ Hide data inside images
 <br>
 
 ## Usage
+<br>
+
+### Embedd data
    ```py
    from maskcode import MaskCode
   
    image = "my_image.jpg"
    data = MaskCode(image)
 
+   data.embedd("Hello world!")
    ```
-<br>
-
-**Embedd data**
-  ```py
-  data.embedd("Hello world!")
-  ```
-<br>
 
 ### Extract Data
-   > Note that it will return binary object
+> Note that it will return binary object
    ```py
+   from maskcode import MaskCode
+  
+   image = "my_image.jpg"
+   data = MaskCode(image)
+
    extracted_data = data.extract()
    print(extracted_data)
 
@@ -34,18 +36,22 @@ Hide data inside images
 
    **Output:**
    ```
-   b'Hello world!'
+      b'Hello world!'
    ```
-<br>
 
 ### Reset embedded data
    ```py
+   from maskcode import MaskCode
+  
+   image = "my_image.jpg"
+   data = MaskCode(image)
+
    data.reset()
    print(data.extract())
    ```
 
    **Output:**
    ```
-   b''
+      b''
    ```
 
